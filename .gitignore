@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments & package caches
+.venv/
+venv/
+env/
+.env
+.pythonlibs/
+site-packages/
+
+# Replit internals (not relevant to the project)
+.replit
+replit.md
+uv.lock
+pyproject.toml
+.local/
+.agents/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (too large for git; download links in README)
+*.csv
+*.tsv
+*.h5
+*.pkl
+*.npy
+*.npz
+data/
+datasets/
